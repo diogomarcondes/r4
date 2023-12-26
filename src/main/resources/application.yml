@@ -1,0 +1,8 @@
+## Config do resilience4 via yml
+resilience4j.retry:
+  instances:
+    secondCustomRetryConfig:
+      maxAttempts: 4
+      waitDuration: 3s
+      ignoreExceptions:
+        - com.example.demo.exception.IgnoredException
