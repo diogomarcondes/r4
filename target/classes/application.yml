@@ -6,3 +6,7 @@ resilience4j.retry:
       waitDuration: 3s
       ignoreExceptions:
         - com.example.demo.exception.IgnoredException
+    thirdCustomRetryConfig:
+      maxAttempts: 3
+      waitDuration: 1s
+#      resultPredicate: com.example.demo.config.retry.RetryCondition

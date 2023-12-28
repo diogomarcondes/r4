@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.demo.config.retry;
 
 import com.example.demo.exception.IgnoredException;
 import io.github.resilience4j.retry.Retry;
